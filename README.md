@@ -2,11 +2,11 @@
 
 <p>
     <img src="https://github.com/user-attachments/assets/23aabf2a-8bd8-4e7b-bb50-993bce32541d" width="300" alt="Glamour Title Treatment"><br>
-    <a href="https://github.com/charmbracelet/glamour/releases"><img src="https://img.shields.io/github/release/charmbracelet/glamour.svg" alt="Latest Release"></a>
-    <a href="https://pkg.go.dev/github.com/charmbracelet/glamour?tab=doc"><img src="https://godoc.org/github.com/golang/gddo?status.svg" alt="GoDoc"></a>
-    <a href="https://github.com/charmbracelet/glamour/actions"><img src="https://github.com/charmbracelet/glamour/workflows/build/badge.svg" alt="Build Status"></a>
-    <a href="https://coveralls.io/github/charmbracelet/glamour?branch=master"><img src="https://coveralls.io/repos/github/charmbracelet/glamour/badge.svg?branch=master" alt="Coverage Status"></a>
-    <a href="https://goreportcard.com/report/charmbracelet/glamour"><img src="https://goreportcard.com/badge/charmbracelet/glamour" alt="Go ReportCard"></a>
+    <a href="https://github.com/pyscripter99/glamour/releases"><img src="https://img.shields.io/github/release/pyscripter99/glamour.svg" alt="Latest Release"></a>
+    <a href="https://pkg.go.dev/github.com/pyscripter99/glamour?tab=doc"><img src="https://godoc.org/github.com/golang/gddo?status.svg" alt="GoDoc"></a>
+    <a href="https://github.com/pyscripter99/glamour/actions"><img src="https://github.com/pyscripter99/glamour/workflows/build/badge.svg" alt="Build Status"></a>
+    <a href="https://coveralls.io/github/pyscripter99/glamour?branch=master"><img src="https://coveralls.io/repos/github/pyscripter99/glamour/badge.svg?branch=master" alt="Coverage Status"></a>
+    <a href="https://goreportcard.com/report/pyscripter99/glamour"><img src="https://goreportcard.com/badge/pyscripter99/glamour" alt="Go ReportCard"></a>
 </p>
 
 Stylesheet-based markdown rendering for your CLI apps.
@@ -21,12 +21,12 @@ the stylish defaults.
 ## Usage
 
 ```go
-import "github.com/charmbracelet/glamour"
+import "github.com/pyscripter99/glamour"
 
 in := `# Hello World
 
 This is a simple example of Markdown rendering with Glamour!
-Check out the [other examples](https://github.com/charmbracelet/glamour/tree/master/examples) too.
+Check out the [other examples](https://github.com/pyscripter99/glamour/tree/master/examples) too.
 
 Bye!
 `
@@ -35,12 +35,12 @@ out, err := glamour.Render(in, "dark")
 fmt.Print(out)
 ```
 
-<img src="https://github.com/charmbracelet/glamour/raw/master/examples/helloworld/helloworld.png" width="600" alt="Hello World example">
+<img src="https://github.com/pyscripter99/glamour/raw/master/examples/helloworld/helloworld.png" width="600" alt="Hello World example">
 
 ### Custom Renderer
 
 ```go
-import "github.com/charmbracelet/glamour"
+import "github.com/pyscripter99/glamour"
 
 r, _ := glamour.NewTermRenderer(
     // detect background color and pick either the default dark or light theme
@@ -55,8 +55,8 @@ fmt.Print(out)
 
 ## Styles
 
-You can find all available default styles in our [gallery](https://github.com/charmbracelet/glamour/tree/master/styles/gallery).
-Want to create your own style? [Learn how!](https://github.com/charmbracelet/glamour/tree/master/styles)
+You can find all available default styles in our [gallery](https://github.com/pyscripter99/glamour/tree/master/styles/gallery).
+Want to create your own style? [Learn how!](https://github.com/pyscripter99/glamour/tree/master/styles)
 
 There are a few options for using a custom style:
 
@@ -68,24 +68,24 @@ There are a few options for using a custom style:
 
 Check out these projects, which use `glamour`:
 
-- [Glow](https://github.com/charmbracelet/glow), a markdown renderer for
-  the command-line.
-- [GitHub CLI](https://github.com/cli/cli), GitHub’s official command line tool.
-- [GitLab CLI](https://gitlab.com/gitlab-org/cli), GitLab's official command line tool.
-- [Gitea CLI](https://gitea.com/gitea/tea), Gitea's official command line tool.
-- [Meteor](https://github.com/odpf/meteor), an easy-to-use, plugin-driven metadata collection framework.
+-   [Glow](https://github.com/charmbracelet/glow), a markdown renderer for
+    the command-line.
+-   [GitHub CLI](https://github.com/cli/cli), GitHub’s official command line tool.
+-   [GitLab CLI](https://gitlab.com/gitlab-org/cli), GitLab's official command line tool.
+-   [Gitea CLI](https://gitea.com/gitea/tea), Gitea's official command line tool.
+-   [Meteor](https://github.com/odpf/meteor), an easy-to-use, plugin-driven metadata collection framework.
 
 ## Feedback
 
 We’d love to hear your thoughts on this project. Feel free to drop us a note!
 
-- [Twitter](https://twitter.com/charmcli)
-- [The Fediverse](https://mastodon.social/@charmcli)
-- [Discord](https://charm.sh/chat)
+-   [Twitter](https://twitter.com/charmcli)
+-   [The Fediverse](https://mastodon.social/@charmcli)
+-   [Discord](https://charm.sh/chat)
 
 ## License
 
-[MIT](https://github.com/charmbracelet/glamour/raw/master/LICENSE)
+[MIT](https://github.com/pyscripter99/glamour/raw/master/LICENSE)
 
 ---
 
@@ -93,4 +93,4 @@ Part of [Charm](https://charm.sh).
 
 <a href="https://charm.sh/"><img alt="The Charm logo" src="https://stuff.charm.sh/charm-badge.jpg" width="400"></a>
 
-Charm热爱开源 • Charm loves open source
+Charm 热爱开源 • Charm loves open source

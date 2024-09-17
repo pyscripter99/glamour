@@ -6,8 +6,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/charmbracelet/glamour"
 	"github.com/muesli/termenv"
+	"github.com/pyscripter99/glamour"
 )
 
 //go:embed artichokes.md

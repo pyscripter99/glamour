@@ -15,8 +15,8 @@ import (
 	"github.com/yuin/goldmark/util"
 	"golang.org/x/term"
 
-	"github.com/charmbracelet/glamour/ansi"
-	styles "github.com/charmbracelet/glamour/styles"
+	"github.com/pyscripter99/glamour/ansi"
+	styles "github.com/pyscripter99/glamour/styles"
 )
 
 const (

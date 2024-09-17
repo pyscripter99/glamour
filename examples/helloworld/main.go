@@ -3,14 +3,14 @@ package main
 import (
 	"fmt"
 
-	"github.com/charmbracelet/glamour"
+	"github.com/pyscripter99/glamour"
 )
 
 func main() {
 	in := `# Hello World
 
 This is a simple example of Markdown rendering with Glamour!
-Check out the [other examples](https://github.com/charmbracelet/glamour/tree/master/examples) too.
+Check out the [other examples](https://github.com/pyscripter99/glamour/tree/master/examples) too.
 
 Bye!
 `
